@@ -1,20 +1,17 @@
+// define array:
 let marks = [91,21,45,false,'not present']
-console.log(marks)          // [ 91, 21, 45, false, 'not present' ]
-console.log(typeof marks)   // object
 
 let a = marks.toString()
-console.log(a)              // a is now all string
-
 let b = marks.join(" - ")
-console.log(b)              // 91 - 21 - 45 - false - not present
-
 let c = marks.pop()
-console.log(marks,c)        // [ 91, 21, 45, false ] not present
-
 let d = marks.push(56)
-console.log(marks,d)        // [ 91, 21, 45, false, 56 ] 5
+let f = marks.concat(b)
+let h = marks.sort()       
+let i = marks.reverse()       
+let e = marks.slice(1,4,1)       
+let j = marks.unshift(5)       
+let k = marks.shift()              
+let g = marks.indexOf(false)
 
-let e = marks.shift()       
-console.log(marks,e)        // [ 21, 45, false, 56 ] 91
-
+console.log(marks)
 

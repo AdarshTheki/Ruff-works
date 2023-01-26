@@ -1,21 +1,33 @@
 // JavaScript :- Strings
 
-let nam = "Adarsh"
-console.log(nam.length)     // 6
+let nam = "Adarsh verma"
+console.log(nam.length, nam)     
+console.log(nam.slice(2), nam)
+console.log(nam.substring(0,2), nam)
+console.log(nam.substr(2,3), nam)
+console.log(nam.trim(), nam)
+console.log(nam.split("-"), nam)
 
 // Tanplate literals ( string Interpolation)
 let boy = 'ayush'
 let girl = 'Miss.devi'
 let sentance = `${boy} is a friend of ${girl}`
 console.log(sentance)       // ayush is a friend of Miss.devi  
-
-// Escape sequence characters
+/* 
+Escape sequence characters
+\' Single quote
+\" Double quote
+\\ Single backslash
+\b Backspace
+\f Form feed
+\n New line
+\t Horizontal tab
+\v Vertical tab
+\r Carriage return
+*/
 let fruit = "bana\'na"
 console.log(fruit)          // bana'na
 
-// other Escape Sequence are: \n , \t , \r 
-console.log(fruit.slice(2,5))   //slice:
-console.log(nam.concat(" was eatting food like ",fruit))  // concat
 
 // Practice:
 

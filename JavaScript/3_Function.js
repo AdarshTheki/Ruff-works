@@ -1,5 +1,14 @@
-// JavaScript :- Funtion
+/* JavaScript :- 
+Funtion – A group of tasks can be performed in a single function
 
+function add(a, b){
+    // code
+}
+
+const add = (a, b) => {
+    // code
+}
+*/
 // Normal Function Use:-
 function oneplus(x,y){
     console.log("Done")
